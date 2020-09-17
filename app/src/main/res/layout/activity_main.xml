@@ -30,10 +30,12 @@
         app:layout_constraintTop_toBottomOf="@+id/tvView"
         app:layout_constraintVertical_bias="0.184" />
 
-    <TextView android:text="Hello World!"
+    <TextView
         android:id="@+id/tvView"
         android:layout_width="180dp"
         android:layout_height="27dp"
+        android:text=""
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
